@@ -1,12 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        // Четыре любых числа
-        int num1 = 10;
-        int num2 = 20;
-        int num3 = 30;
-        int num4 = 40;
-
-        // Вывод чисел на экран в одну строку с тремя пробелами между ними
+        int num1 = 5;
+        int num2 = 10;
+        int num3 = 15;
+        int num4 = 20;
+        
         System.out.println(num1 + "   " + num2 + "   " + num3 + "   " + num4);
     }
 }
