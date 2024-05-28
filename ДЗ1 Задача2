@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Game {
+class Game {
     public static void main(String[] args) {
         Random random = new Random();
         int vasyaChoice = random.nextInt(3);
@@ -14,8 +14,8 @@ public class Game {
         if (vasyaChoice == petyaChoice) {
             System.out.println("Ничья!");
         } else if ((vasyaChoice == 0 && petyaChoice == 1) ||
-                   (vasyaChoice == 1 && petyaChoice == 2) ||
-                   (vasyaChoice == 2 && petyaChoice == 0)) {
+                (vasyaChoice == 1 && petyaChoice == 2) ||
+                (vasyaChoice == 2 && petyaChoice == 0)) {
             System.out.println("Выиграл Вася!");
         } else {
             System.out.println("Выиграл Петя!");
